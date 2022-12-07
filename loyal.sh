@@ -184,6 +184,7 @@ sudo systemctl restart $LYL
 
 echo '=+=+=+=+=+=+=+= YAK, UDAH GITU DOANG =+=+=+=+=+=+=+=+=+='
 echo -e 'Cek Logs: \e[1m\e[32mjournalctl -fu loyald -o cat\e[0m'
+echo -e "\e[1m\e[31mSpecial Thanks Nodeist for Original Script <3\e[0m"
 echo -e "Cek Sinkronasi: \e[1m\e[32mcurl -s localhost:${LYL_PORT}657/status | jq .result.sync_info\e[0m"
 
 source $HOME/.bash_profile
